@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:ital,wght@1,600&display=swap');
+
+@font-face {
+  font-family: "estedad";
+  src: url(./fonts/estedad/ttf/Estedad-Light.ttf);
+}
+
+@font-face {
+  font-family: "estedad-bold";
+  src: url(./fonts/estedad/ttf/Estedad-Medium.ttf);
+}
+
+@font-face {
+  font-family: "estedad-bolish";
+  src: url(./fonts/estedad/ttf/Estedad-Black.ttf);
+}
+
+* {
+  direction: rtl;
+  font-family: estedad;
+}
+
+.sans-bold {
+  font-family: estedad-bold;
+}
+
+.sans-bolish {
+  font-family: estedad-bolish;
+}
+
+.text-blak {
+  color: #2b2b2b;
+}
+
+.paragraf {
+  font-family: 'KoHo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 16px;
+  /* or 23% */
+
+  display: flex;
+  align-items: center;
+
+  color: #2B2B2B;
+
+  transform: rotate(-10deg);
+}
+
+.title-login {
+  width: 327px;
+  height: 42px;
+
+  font-family: sans-bold;
+  font-size: 12px;
+  line-height: 21px;
+  /* or 175% */
+
+  text-align: right;
+
+  color: #2B2B2B;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+}
+
+.btn-login {
+  padding: 17px 60px;
+  gap: 10px;
+
+  width: 193px;
+  height: 55px;
+
+  background: #008080;
+  border-radius: 10px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+.coverlogo {
+  border-radius: 10px;
+}
+
+.text-xss {
+  font-size: 12px;
+  line-height: 21px;
+}
